@@ -8,7 +8,6 @@
 A semantic search engine for discovering books based on meaning, not just exact keywords.  
 Built with **Sentence-BERT** and **FAISS** for fast similarity search over **100,000 books**.
 
-![Demo Screenshot](screenshots/demo.png)
 
 ---
 
@@ -37,7 +36,7 @@ Built with **Sentence-BERT** and **FAISS** for fast similarity search over **100
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/semantic-book-search.git
+git clone https://github.com/dhafinrl/semantic-book-search.git
 cd semantic-book-search
 ```
 
@@ -54,7 +53,7 @@ pip install -r requirements.txt
 ### 3. Download Precomputed Artifacts
 
 The FAISS index, TF-IDF model, and processed metadata are too large for GitHub.  
-Download them from the **Google Drive link** and place the files inside the `artefak/` folder.
+Download them from the [**Google Drive link**](https://drive.google.com/file/d/1JQc7MpqSzvSKwiiCSUeYRz9HM9D4zqqG/view?usp=drive_link) and place the files inside the `artefak/` folder.
 
 Expected files:
 
