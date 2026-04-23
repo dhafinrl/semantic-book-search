@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Artefak besar (tidak di-commit, disediakan via Google Drive)
+artefak/*.index
+artefak/*.pkl
+artefak/*.csv
+artefak/*.npy
+
+# File dataset mentah (opsional jika ada di luar artefak)
+*.csv
+!requirements.txt
+
+# File sistem dan IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
